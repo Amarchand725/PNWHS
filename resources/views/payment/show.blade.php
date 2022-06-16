@@ -1,0 +1,2 @@
+
+<p> {{$model->id}} </p><p> {{$model->p_no}} </p><p> {{$model->amount_type}} </p><p> {{$model->month}} </p><p> {{$model->amount}} </p><p> {{$model->year}} </p><p> {{$model->created_by}} </p><p> {{$model->created_at}} </p><p> {{$model->updated_at}} </p>

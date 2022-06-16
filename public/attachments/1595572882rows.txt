@@ -1,0 +1,196 @@
+<div class='row'>
+<div class='col-md-12 col-lg-12 col-sm-12'></div>
+</div>
+
+
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'></div>
+<div class='col-md-2'></div>
+</div>
+
+<div class='row'>
+<div class='col-md-3'></div>
+<div class='col-md-6'></div>
+<div class='col-md-3'></div>
+</div>
+
+
+<div class='row'>
+<div class='col-md-4'></div>
+<div class='col-md-4'></div>
+<div class='col-md-4'></div>
+</div>
+
+<div class='row'>
+<div class='col-md-3'></div>
+<div class='col-md-3'></div>
+<div class='col-md-3'></div>
+<div class='col-md-3'></div>
+</div>
+
+
+
+
+//Works
+
+{% if this.theme.block_work == '1' %}
+{% set fpWorks = this.theme.block_work_repeater %}
+<section class=" pb-0" id="works" style='padding:0,0,0,0 !important'>
+    <div class="container" style='background-color:lightblue;' >
+   
+   
+   
+
+   
+   
+   
+   
+
+   
+     <div class='row text text-center'>
+     <h1>How Its Work?</h1>
+        
+   <div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-1.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-2.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-3.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-4.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-5.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-6.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+<div class="icon-level"><img src="{{ 'assets/images/MarketingIcons/icon-level-7.png'|theme }}" alt="Bitsbox Level 1 teaches coordinates."></div>
+
+
+</div>
+<div class='col-md-2'></div>
+</div>
+
+ <div class='row' style='padding-top:30px;padding-bottom:30px;'>
+<div class='col-md-3'></div>
+<div class='col-md-6'>
+<div class='col-md-6'>
+   <p>Kids keep on developing the tech skills through our 
+                ineractive portal. Children look forward to all the fun while learning latest skills! </p>
+               
+</div>
+<div class='col-md-6'>
+ <p>Sign up >>> Subscription>>>>Kids write codes & develop apps >>> Share with friends & family! </p>
+</div>
+</div>
+<div class='col-md-3'></div>
+</div>
+      
+      </div>  
+        
+        
+        
+        
+    </div>
+    
+</section>
+{% endif %}
+
+
+///
+
+<style>
+section {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+</style>
+
+<div class='row'>
+<div class='col-md-2'></div>
+<div class='col-md-8'>
+
+<container id="fullpage">
+    <section> 
+      <div class="wow fadeInLeft"> Slide 1</div>
+    </section>
+    <section>
+      <div class="wow fadeInRight">Slide 2</div>
+    </section>
+    <section>
+      <div class="wow fadeInLeft">Slide 3</div>
+    </section>
+    <section>
+      <div class="wow fadeInRight">Slide 4</div>
+    </section>
+</container>
+</div>
+<div class='col-md-2'></div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+    
+    //activate wow.js
+     new WOW().init();
+  
+    //activate fullpage.js
+    $('#fullpage').fullpage({
+      scrollBar: true,
+      navigation: true,
+      navigationTooltips: ['Slide 1', 'Slide 2', 'Slide 3', 'Slide 4'],
+      loopBottom: true,
+      sectionSelector: 'section'
+    });
+  
+  //apply color to each section from array
+  int = -1;
+  color_array = ['#1abc9c','#c0392b','#9b59b6','#3498db','#f1c40f','#16a085'];
+
+  $('section').each(function(){
+    int++
+    $(this).addClass('grid-item-' + int).css('background-color', color_array[int]);
+  });
+  
+});
+</script>
+
+///
+
+
+<div class='row text text-center' style="padding-top:30px;padding-bottom:30px;background:url('{{'assets/images/whyekodify5.jpg'|theme }}');margin-top: 24px; background-repeat: no-repeat;
+  background-size: 100% 100%;" id='whyekodify'>
+<h1 style='color:white;'>Why Ekodify?</h1>
+<div class='col-md-2'></div>
+<div class='col-md-8' style='color:white;'>
+<div class='col-md-12 text text-left'>
+<p>A creative way for kids to learn all about coding concepts and master the skills gradually. The projects are specially designed for various age brackets.
+For parents, it will help utilize the screen time of their children in the best possible manner with creative ideas taken up in the form of DIY tech projects! </p>
+</div>
+<div class='col-md-12 text text-left'>
+<ul>
+<div class='col-md-6 text text-left'>
+<li>No Prior coding skills required</li>
+<li>Parents learn alongside kids</li>
+<li>kids make thier own  games</li>
+</div>
+<div class='col-md-6 text text-left'>
+<li>share coded  animated cards to friends & family</li>
+<li>not  a single time worse, its and  unfrogenttible journey</li>
+<li>an evolving cmmunity of young coders</li>
+</div>
+<div class='col-md-10 text text-center'>
+<li>freelance opportunity after  reachin elite coder club!</li>
+</div>
+
+</ul>
+</div>
+</div>
+<div class='col-md-2'></div>
+</div>
+
+
+
+
+public_html/login

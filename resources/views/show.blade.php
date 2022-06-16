@@ -1,0 +1,2 @@
+
+<p> {{$model->id}} </p><p> {{$model->acc_id}} </p><p> {{$model->acc_type}} </p><p> {{$model->op_balance}} </p><p> {{$model->op_bt}} </p><p> {{$model->op_date}} </p><p> {{$model->cl_blance}} </p><p> {{$model->cl_bt}} </p><p> {{$model->cl_date}} </p><p> {{$model->admin_id}} </p><p> {{$model->status}} </p><p> {{$model->created_at}} </p><p> {{$model->updated_at}} </p>

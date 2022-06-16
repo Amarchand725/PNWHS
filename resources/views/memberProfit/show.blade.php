@@ -1,0 +1,2 @@
+
+<p> {{$model->id}} </p><p> {{$model->rate}} </p><p> {{$model->effected_date}} </p><p> {{$model->status}} </p><p> {{$model->created_by}} </p><p> {{$model->created_at}} </p><p> {{$model->updated_at}} </p>

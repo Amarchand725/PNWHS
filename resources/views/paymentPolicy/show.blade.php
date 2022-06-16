@@ -1,0 +1,2 @@
+
+<p> {{$model->id}} </p><p> {{$model->rank_id}} </p><p> {{$model->registration_payment}} </p><p> {{$model->monthly_instalment}} </p><p> {{$model->effective_date}} </p><p> {{$model->created_at}} </p><p> {{$model->updated_at}} </p>

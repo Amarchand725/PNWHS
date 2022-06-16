@@ -1,0 +1,2 @@
+
+<p> {{$model->id}} </p><p> {{$model->record_id}} </p><p> {{$model->order_for}} </p><p> {{$model->seen}} </p><p> {{$model->seperate_view}} </p><p> {{$model->title}} </p><p> {{$model->created_at}} </p><p> {{$model->updated_at}} </p>
